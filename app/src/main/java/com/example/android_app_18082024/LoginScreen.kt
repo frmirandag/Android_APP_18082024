@@ -102,7 +102,7 @@ fun LoginScreen() {
                 .fillMaxWidth(0.8f), // Ajusta el ancho del botón (80% del ancho de la pantalla)
             shape = RoundedCornerShape(8.dp)
         ) {
-            Text(text = "Login")
+            Text(text = "Login", fontSize =  24.sp)
         }
 
         Spacer(modifier = Modifier.height(16.dp))
